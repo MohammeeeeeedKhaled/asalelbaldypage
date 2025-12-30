@@ -1,0 +1,29 @@
+/* Brand override block: Blue primary #405B82, Gold accent #EBA511 */
+html, body { color: #ffffff; }
+
+/* Hero + sections */
+.hero-gradient { background: linear-gradient(135deg, #405B82 0%, #2f4464 100%) !important; }
+.section-badge { color: #EBA511 !important; }
+.section-badge::after, .section-badge::before { background: #EBA511 !important; }
+.section-title { color: #ffffff !important; }
+.section-description { color: rgba(255,255,255,.85) !important; }
+
+/* Collections accents */
+.collection-icon { background: rgba(235,165,17,.95) !important; box-shadow: 0 8px 25px rgba(235,165,17,.4) !important; }
+.collection-category { color: #EBA511 !important; }
+.stat-icon { color: #EBA511 !important; }
+.collection-cta { background: linear-gradient(135deg, #405B82 0%, #2f4464 100%) !important; box-shadow: 0 4px 15px rgba(64,91,130,.3) !important; }
+.collection-card:hover .collection-cta { background: linear-gradient(135deg, #2f4464 0%, #405B82 100%) !important; box-shadow: 0 6px 25px rgba(64,91,130,.5) !important; }
+.decorative-shape { background: radial-gradient(circle, rgba(235,165,17,.15) 0, transparent 70%) !important; }
+.collections-section .collection-card > .collection-title { color: #ffffff !important; }
+
+/* Text utilities */
+.text-primary { color: #EBA511 !important; }
+.text-text-main-light { color: #ffffff !important; }
+.text-text-main-dark { color: #ffffff !important; }
+.text-text-secondary-light { color: #EBA511 !important; }
+.text-text-secondary-dark { color: #EBA511 !important; }
+
+/* Selection */
+::selection { background: #405B82; color: #ffffff; }
+*::selection { background: #405B82; color: #ffffff; }
